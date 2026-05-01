@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tennis Academy</title>
+
+  <!-- Tailwind CSS (CDN) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Barlow + Barlow Condensed -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Barlow:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ─── TOP BAR ─── -->
+<div class="topbar">
+  🎾 10% discount on selected Summer Camp 2026 weeks – Limited spots! <a href="#book">Book Now</a>
+</div>
+
+<!-- ─── NAV ─── -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo">Tennis <span>Academy</span></div>
+    <div class="nav-links">
+      <a href="#programs">Adult Camps</a>
+      <a href="#programs">Junior Camps</a>
+      <a href="#annual">Tennis & School</a>
+      <a href="#tournaments">Tournaments</a>
+      <a href="#facilities">Facilities</a>
+      <a href="#about">About Us</a>
+      <a href="#book" class="nav-book">Book Now</a>
+    </div>
+    <div class="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- ─── HERO ─── -->
+<section class="hero" id="home">
+  <div class="hero-court-img">
+    <img src="../assets/main-header.jpg" class="hero-img" alt="Tennis player">
+    <div class="hero-img-overlay"></div>
+  </div>
+  <div style="position:absolute;inset:0;background:linear-gradient(160deg,rgba(10,10,18,0.75) 0%,rgba(10,10,18,0.3) 50%,rgba(10,10,18,0.1) 100%);"></div>
+  <div class="hero-content">
+    <div class="hero-badge">🎾 Junior Summer Camps 2026</div>
+    <h1 class="hero-title">
+      Where Champions<br><em>Are Made</em>
+    </h1>
+    <p class="hero-subtitle">
+      World-class tennis training, elite coaching, and an immersive academy experience for players of all levels.
+    </p>
+    <div class="hero-actions">
+      <a href="#programs" class="btn-primary">
+        Explore Programs
+        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </a>
+      <a href="#book" class="btn-outline">Book a Camp</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── ANNOUNCE STRIP ─── -->
+<div class="announce-strip">
+  <p>Discover our Annual Tennis & School Program — shaping the next generation of champions</p>
+  <a href="#annual">Learn More</a>
+</div>
+
+<!-- ─── PROGRAMS ─── -->
+<section class="programs-section" id="programs">
+  <div style="max-width:1280px;margin:0 auto;">
+    <div class="section-header">
+      <span class="section-label">Choose Your Path</span>
+      <h2 class="section-title">Our Programs</h2>
+    </div>
+    <div class="programs-grid">
+      <div class="program-card">
+        <div class="program-img-wrap">
+          <img loading="lazy" src="../assets/adult camps.jpg" alt="Adult Camps" class="program-img">
+          <div class="program-overlay"></div>
+        </div>
+        <div class="program-body">
+          <span class="program-tag">For Adults</span>
+          <h3 class="program-name">Adult Camps</h3>
+          <p class="program-desc">The Tennis Academy adult camps offer an exceptional sports experience at all levels, combining top-level coaching with quality accommodation in an inspiring environment.</p>
+          <a href="#" class="program-link">
+            Discover More
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="program-card">
+        <div class="program-img-wrap">
+          <img loading="lazy" src="../assets/junior-program.jpg" alt="Junior Programs" class="program-img">
+          <div class="program-overlay"></div>
+        </div>
+        <div class="program-body">
+          <span class="program-tag">For Juniors</span>
+          <h3 class="program-name">Junior Programs</h3>
+          <p class="program-desc">The Tennis Academy junior sports camps offer young players a complete education. Through highly supervised camps, school classes and a bilingual environment, players are immersed in a winning environment.</p>
+          <a href="#" class="program-link">
+            Discover More
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── ANNUAL PROGRAM ─── -->
+<section class="annual-section" id="annual">
+  <div class="annual-inner">
+    <div class="annual-text">
+      <span class="section-label">Flagship Program</span>
+      <h2>Annual<br><span>Program</span></h2>
+      <p>The Tennis Academy Annual Program offers young players an immersive, full-year experience of tennis excellence. Expert-led training, modern accommodation, and elite resources to develop the complete player — technically, physically, and mentally.</p>
+      <a href="#" class="btn-primary">
+        More Information
+        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </a>
+    </div>
+    <div class="annual-img-wrap">
+      <img loading="lazy" src="../assets/annual-program.jpg" alt="Annual Program" class="annual-img">
+      <div class="annual-img-accent"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── STATS BAR ─── -->
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <div class="stat-num">+3,500</div>
+      <div class="stat-label">Students per year</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">+4,500</div>
+      <div class="stat-label">Hours of training</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">9</div>
+      <div class="stat-label">Tennis courts</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">70+</div>
+      <div class="stat-label">Nationalities</div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── COACHES ─── -->
+<section class="players-section" id="coaches">
+  <div style="max-width:1280px;margin:0 auto;">
+    <div class="section-header" style="margin-bottom:48px;">
+      <span class="section-label">Our Team</span>
+      <h2 class="section-title light">Expert Coaches</h2>
+    </div>
+    <div class="players-grid">
+      <div class="player-card">
+        <img loading="lazy" src="../assets/udayan.jpg" alt="udayan">
+        <div class="player-card-body">
+          <h4 class="player-name">Udayan Bhakar</h4>
+          <span class="player-role">Head Coach · ATP Pro</span>
+        </div>
+      </div>
+      <div class="player-card">
+        <img loading="lazy" src="../assets/walter-white.jpg" alt="walter-white">
+        <div class="player-card-body">
+          <h4 class="player-name">Walter White</h4>
+          <span class="player-role">Junior Director</span>
+        </div>
+      </div>
+      <div class="player-card">
+        <img loading="lazy" src="../assets/Kaz.jpg" alt="Kaz">
+        <div class="player-card-body">
+          <h4 class="player-name">Kazuhira Miller</h4>
+          <span class="player-role">Fitness & Conditioning</span>
+        </div>
+      </div>
+      <div class="player-card">
+        <img loading="lazy" src="../assets/coach-2.jpg" alt="coach-2">
+        <div class="player-card-body">
+          <h4 class="player-name">Generic Coach</h4>
+          <span class="player-role">Padel Specialist</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FEATURED CAMPS ─── -->
+<section class="camps-section" id="camps">
+  <div style="max-width:1280px;margin:0 auto;">
+    <div class="section-header">
+      <span class="section-label">Summer 2026</span>
+      <h2 class="section-title">Featured Camps</h2>
+    </div>
+    <div class="camps-grid">
+      <div class="camp-card">
+        <img loading="lazy" src="../assets/summer-junior-camp.jpg" alt="summer-junior-camp">
+        <div class="camp-card-overlay">
+          <span class="camp-type">Junior</span>
+          <h3 class="camp-name">Summer Junior<br>Tennis Camp</h3>
+          <div class="camp-meta">Jun – Aug · Ages 8–18</div>
+        </div>
+      </div>
+      <div class="camp-card">
+        <img loading="lazy" src="../assets/summer-adult-camp.jpg" alt="summer-adult-camp">
+        <div class="camp-card-overlay">
+          <span class="camp-type">Adults</span>
+          <h3 class="camp-name">Summer Adult<br>Tennis Camp</h3>
+          <div class="camp-meta">Jun – Aug · All levels</div>
+        </div>
+      </div>
+      <div class="camp-card">
+        <img loading="lazy" src="../assets/high-performance-camp.jpg" alt="high-performance-camp">
+        <div class="camp-card-overlay">
+          <span class="camp-type">Elite</span>
+          <h3 class="camp-name">High Performance<br>Training Camp</h3>
+          <div class="camp-meta">Year-round · Competitive players</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FACILITIES ─── -->
+<section class="facilities-section" id="facilities">
+  <div style="max-width:1280px;margin:0 auto;">
+    <div class="section-header">
+      <span class="section-label">World-Class Infrastructure</span>
+      <h2 class="section-title">Our Facilities</h2>
+    </div>
+    <div class="facilities-grid">
+      <div class="facility-card">
+        <img loading="lazy" src="../assets/tennis-court.jpg" alt="tennis-court">
+        <div class="facility-label">Tennis Courts</div>
+      </div>
+      <div class="facility-card">
+        <img loading="lazy" src="../assets/gymnasium.jpg" alt="gymnasium">
+        <div class="facility-label">Gymnasium</div>
+      </div>
+      <div class="facility-card">
+        <img loading="lazy" src="../assets/swimming-pool.jpg" alt="swimming-pool">
+        <div class="facility-label">Swimming Pool</div>
+      </div>
+      <div class="facility-card">
+        <img loading="lazy" src="../assets/accommodation.jpg" alt="accommodation">
+        <div class="facility-label">Accommodation</div>
+      </div>
+      <div class="facility-card">
+        <img loading="lazy" src="../assets/restaurant.jpg" alt="restaurant">
+        <div class="facility-label">Restaurant</div>
+      </div>
+    </div>
+    <div class="facilities-desc">
+      <p>The Tennis Academy provides an exceptional environment for tennis development and personal well-being. State-of-the-art courts with cutting-edge data tracking technology, modern player accommodations, and world-class fitness facilities make this one of the premier tennis academies in Europe.</p>
+      <div>
+        <a href="#" class="btn-primary" style="margin-bottom:0;">
+          Discover Facilities
+          <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── TOURNAMENTS ─── -->
+<section class="tournaments-section" id="tournaments">
+  <div class="tournaments-inner">
+    <div class="tournament-img">
+      <img loading="lazy" src="../assets/udayan.jpg" alt="udayan">
+    </div>
+    <div class="tournament-text">
+      <span class="section-label">Compete & Grow</span>
+      <h2>Tournaments<br><span>at the Academy</span></h2>
+      <p>The tournaments at the Tennis Academy provide an exciting platform to compete and develop in an inspiring environment — run with quality, sportsmanship, and integrity in line with the Academy's philosophy.</p>
+      <ul class="tournament-list">
+        <li>Junior Tournaments (ITF & National)</li>
+        <li>Adult Tournaments (Amateur & Open)</li>
+        <li>World Tennis Masters Tour MT100</li>
+        <li>Padel Competitions & Events</li>
+      </ul>
+      <a href="#" class="btn-primary">
+        Discover More
+        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── ABOUT ─── -->
+<section class="about-section" id="about">
+  <div class="about-inner">
+    <div class="about-img">
+      <img loading="lazy" src="../assets/main-header.jpg" alt="main-header">
+      <div class="about-img-frame"></div>
+    </div>
+    <div class="about-text">
+      <span class="section-label" style="color:var(--primary);">Our Story</span>
+      <h2>About<br><span>the Academy</span></h2>
+      <p>Born from a passion for tennis excellence and a commitment to the next generation of players, Tennis Academy has grown into one of Europe's most respected training environments.</p>
+      <p>We combine elite sport methodology with a holistic education, ensuring every player who trains here develops not just as an athlete but as a complete individual. Our coaches bring decades of professional experience to guide each student's unique journey.</p>
+      <a href="#" class="btn-outline">
+        Our History
+        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── UNIVERSITY SCHOOL ─── -->
+<section class="university-section" id="school">
+  <div class="university-inner">
+    <div class="university-text">
+      <span class="section-label">Academic Excellence</span>
+      <h2>Tennis Academy<br><span>University School</span></h2>
+      <p>A unique program that combines elite tennis training with an internationally recognized academic curriculum. Students graduate as both accomplished athletes and well-rounded scholars, ready for the highest level of professional play and life beyond the court.</p>
+      <p>Partner universities in Europe and North America offer degree programs specifically designed for our student-athletes, providing seamless integration between sport and education.</p>
+      <a href="#" class="btn-primary">
+        More Information
+        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </a>
+    </div>
+    <div class="university-img">
+      <img loading="lazy" src="../assets/annual-program.jpg" alt="annual-program">
+    </div>
+  </div>
+</section>
+
+<!-- ─── COMMUNITY CTA ─── -->
+<section class="cta-section" id="book">
+  <div class="cta-inner">
+    <h2>Join Our<br><span>Community</span></h2>
+    <p>Subscribe to get the latest news, program updates, and exclusive offers from Tennis Academy delivered straight to your inbox.</p>
+    <div class="cta-form">
+      <input type="email" placeholder="Your email address">
+      <button type="button">Subscribe</button>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">Tennis <span>Academy</span></div>
+        <p>World-class tennis training, elite coaching, and an immersive academy experience for players of all levels and ages.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Programs</h5>
+        <ul>
+          <li><a href="#">Adult Camps</a></li>
+          <li><a href="#">Junior Programs</a></li>
+          <li><a href="#">Annual Program</a></li>
+          <li><a href="#">Padel Camps</a></li>
+          <li><a href="#">Fitness & Health</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="#">Tournaments</a></li>
+          <li><a href="#">Facilities</a></li>
+          <li><a href="#">University School</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">International Centers</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Academy</h5>
+        <ul>
+          <li><a href="#">Our History</a></li>
+          <li><a href="#">Methodology</a></li>
+          <li><a href="#">Coaching Team</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Tennis Academy. All rights reserved.</span>
+      <div>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">Legal Notice</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="main.js"></script>
+
+</body>
+</html>
