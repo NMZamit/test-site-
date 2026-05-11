@@ -39,7 +39,7 @@ window.addEventListener('scroll', () => {
 
 /* ─── CARD REVEAL ON SCROLL ─── */
 const cards = document.querySelectorAll(
-  '.program-card, .camp-card, .player-card, .stat-item, .facility-card'
+  '.program-card, .camp-card, .player-card, .stat-item, .facility-card, .price-card'
 );
 
 const observer = new IntersectionObserver(entries => {
